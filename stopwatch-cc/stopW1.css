@@ -1,0 +1,107 @@
+
+
+body{
+
+    background-image:url('img1_stopWatch.jpg');
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:cover;
+    font-family:Arial,Helvetica,sans-serif;
+    height:100%;
+    width:100%;
+  }
+ #img2{ 
+    border-radius:10px;
+    box-shadow: 0px 0px 10px  rgba(224, 224, 230, 0.808);
+   
+} 
+
+.main{
+   
+   display:flex;
+    justify-content:center;
+    align-items:center;
+    height:200vh;
+
+    flex-direction:column;
+} 
+
+.container{
+
+    background:#1a8ccaf8;
+    background-image:radial-gradient(rgb(77, 77, 132),rgb(7, 8, 78));
+  
+    display:flex;
+  
+     position:fixed;
+    top:30px;
+    left:500px; 
+   
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+    width:500px;
+
+    box-shadow: 0px 0px 10px  rgba(233, 233, 236, 0.808);
+    
+    border-radius: 50px;
+    flex-direction:column;
+}
+#stopwatch{
+    background-color:#2a084bba;
+
+    background-size:cover;
+    background-position:50% 50%;
+    background-attachment:fixed;
+    font-size:100px;
+    background-image:linear-gradient(rgb(146, 178, 202),rgb(39, 34, 101), rgba(17, 17, 230, 0.822));
+  
+    box-shadow: 5px 5px 5px 1px rgb(241, 236, 236) inset;
+
+    padding:10px;
+    color:white;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+#time{
+
+    font-style:italic;
+    font-size:20px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+#buttons{
+    display:flex;
+
+}
+
+button{
+    padding:20px;
+    background-color:#530215;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:larger;
+    margin:10px;
+    width:100px;
+    background-image:radial-gradient(rgb(152, 152, 174),rgba(5, 33, 216, 0.968));
+    box-shadow:5px 5px 5px rgba(210, 224, 9, 0.7);
+    transition:all 0.5s;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+box-shadow:none;
+transition:all 0.5;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:'Source Sans Pro',sans-serif;
+}
+
